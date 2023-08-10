@@ -1,0 +1,126 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 100vw 50vh;
+  background-color: hsl(225, 100%, 94%);
+  font-size: 14px;
+}
+
+.outer {
+  margin: auto;
+  padding: 100px 0px;
+}
+
+.innerdiv {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 20px;
+  margin: 0px auto;
+  padding-bottom: 30px;
+  text-align: center;
+  box-shadow: 0px 26px 40px 0px #bac7ed;
+  width: 20%;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-stroke-width: thin;
+}
+
+.innerdiv img {
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+}
+
+.summary-part h2 {
+  color: hsl(223, 47%, 23%);
+  font-size: 25px;
+  margin: 0px auto;
+  padding-top: 23px;
+}
+
+.summary-part p {
+  margin: 15px 27px;
+  text-align: center;
+  line-height: 20px;
+  color: hsl(224, 23%, 55%);
+}
+
+.music {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: hsl(225deg 97% 96%);
+  border-radius: 8px;
+  width: 85% !important;
+  margin: 0px auto;
+  padding: 10px;
+}
+.music p {
+  color: hsl(224, 23%, 55%);
+}
+
+.manage-music {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.music h2 {
+  display: block;
+  font-size: 15px;
+  width: max-content;
+  color: hsl(223, 47%, 23%);
+}
+
+.manage-row {
+  width: 60%;
+  margin-left: 10px;
+}
+
+.change a {
+  font-weight: bold;
+  color: hsl(245, 75%, 52%);
+}
+
+.change a:hover {
+  text-decoration: none;
+  color: rgb(117, 117, 228);
+}
+
+button {
+  background-color: hsl(245, 75%, 52%);
+  width: 85%;
+  border: none;
+  padding: 14px 0px;
+  margin: 18px 10px;
+  border-radius: 8px;
+  box-shadow: 0px 10px 40px -12px blue;
+}
+
+button a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: rgb(117, 117, 228);
+}
+
+.cancel a {
+  color: rgb(102, 100, 100);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cancel a:hover {
+  color: black;
+}
